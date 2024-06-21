@@ -10,17 +10,17 @@
 <div id="container">
   <div>
     <p>Ixonia!</p>
-    <img src="src/lib/images/ixoniaThumbnail.png" alt="DM">
+    <img src="src/lib/images/ixoniaThumbnail.png" alt="DM" title="A text-based adventure game built with Javascript">
     <p>click <a href="https://github.com/bobbythree/ixonia">here</a> to view code</p>
   </div>
   <div>
     <p>Canvas Bubbles</p>
-    <img src="src/lib/images/bubblesThumbnail.png" alt="DM">
+    <img src="src/lib/images/bubblesThumbnail.png" alt="DM" title="a simple animation built with HTML Canvas">
     <p>click <a href="https://github.com/bobbythree/HTML-canvas-bubbles">here</a> to view code</p>
   </div>
   <div>
     <p>Drum Machine</p>
-    <img src="src/lib/images/DMthumbnail.png" alt="DM">
+    <img src="src/lib/images/DMthumbnail.png" alt="DM" title="a drum machine and sequencer built with Javascript">
     <p>click <a href="https://github.com/bobbythree/drum-machine">here</a> to view code</p>    
   </div>  
 </div>
@@ -64,5 +64,12 @@
   a:hover{
     color: rgb(228, 226, 226);
     transition: 0.5s;
+  }
+
+  @media screen and (max-width: 700px) {
+    #container {
+      display: flex;
+      flex-direction: column;
+    }
   }
 </style>
