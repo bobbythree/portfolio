@@ -61,6 +61,11 @@
     border-radius: 50%;  
   }
 
+  img:hover {
+    filter: blur(8px);
+    transition: 0.5s;
+  }
+
   a:hover{
     color: rgb(228, 226, 226);
     transition: 0.5s;
