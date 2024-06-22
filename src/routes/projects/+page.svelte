@@ -1,13 +1,45 @@
 <script>  
-  import Heading from '$lib/components/heading.svelte'
+  import Heading from '$lib/components/heading.svelte';
+
+  let cards = [
+    {
+      title: 'Ixonia',
+      image: 'src/lib/images/ixoniaThumbnail.png',
+      link: 'https://github.com/bobbythree/ixonia',
+      alt: 'A text-based adventure game built with Javascript'      
+    },
+    {
+      title: 'Canvas Bubbles',
+      image: 'src/lib/images/bubblesThumbnail.png',
+      link: 'https://github.com/bobbythree/HTML-canvas-bubbles',
+      alt: 'a simple animation built with HTML Canvas'    
+    },
+    {
+      title: 'Drum Machine',
+      image: 'src/lib/images/DMThumbnail.png',
+      link: 'https://github.com/bobbythree/drum-machine',
+      alt: 'a drum machine and sequencer built with Javascript'   
+    }
+  ]
 </script>
 
 
 <Heading 
   heading={'Projects'}
 />
+
+<div id="container">  
+  {#each cards as card}
+  <div>
+    <p>{card.title}</p>
+    <img src="{card.image}" alt="{card.alt}">
+    <p>click <a href="{card.link}">here</a> to view code</p>
+  </div>  
   
-<div id="container">
+  {/each}
+</div>
+  
+<!-- <div id="container">
   <div>
     <p>Ixonia!</p>
     <img src="src/lib/images/ixoniaThumbnail.png" alt="DM" title="A text-based adventure game built with Javascript">
@@ -23,7 +55,7 @@
     <img src="src/lib/images/DMthumbnail.png" alt="DM" title="a drum machine and sequencer built with Javascript">
     <p>click <a href="https://github.com/bobbythree/drum-machine">here</a> to view code</p>    
   </div>  
-</div>
+</div> -->
 
 
 <style>
