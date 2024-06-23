@@ -18,7 +18,7 @@
 <style>
 
   #nav-bar {
-    background-color: rgb(41, 99, 123);
+    background-color: #121212;
     color: rgb(221, 221, 221);
     display: flex;
     justify-content: space-around;
@@ -27,7 +27,7 @@
   }
 
   #nav-logo {
-    color: black;
+    color: rgb(221, 221, 221);
   }
 
   .nav-links {    

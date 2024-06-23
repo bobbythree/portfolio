@@ -11,7 +11,6 @@
 
 <style>
   #container {    
-    padding: 3rem;
     gap: 1rem;
     display: flex;
     flex-direction: column;
@@ -19,11 +18,10 @@
   }
 
   #heading-div {
-    width: 50vw;
+    width: 100vw;
     background-color: rgb(36, 36, 36);    
-    padding: 1rem;
-    border-radius: 33px;
-    filter: drop-shadow(8px 8px 10px black);    
+    padding: 0.35rem;
+           
   }
 
   #heading {
