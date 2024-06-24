@@ -26,10 +26,11 @@
   ]
 </script>
 
-
-<Heading 
-  heading={'Projects'}
-/>
+<div id="heading-div">
+  <Heading 
+    heading={'Projects'}
+  />
+</div>
 
 <div id="container">  
   {#each cards as card}
@@ -43,6 +44,10 @@
 </div>
 
 <style>
+  #heading-div {
+    padding: 0 15vw;
+  }
+
   #container {
     display: flex;
     gap: 2rem;

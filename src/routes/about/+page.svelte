@@ -2,10 +2,11 @@
   import Heading from '$lib/components/heading.svelte'
 </script>
 
+<div id="heading-div">
+  <Heading 
+    heading={'About Me'} />
+</div>
 
-<Heading 
-  heading={'About Me'}
-/>
 
 <div id="bio">
   <p>
@@ -18,6 +19,10 @@
 
 
 <style>
+  #heading-div {
+    padding: 0 15vw;
+  }
+
   #bio {
     text-align: left;
     padding: 2rem 10rem;

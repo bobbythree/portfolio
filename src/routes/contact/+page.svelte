@@ -3,10 +3,11 @@
   
 </script>
 
-
-<Heading 
-  heading={'Contact Me'}
-/>
+<div id="heading-div">
+  <Heading 
+    heading={'Contact Me'}
+  />
+</div>
 
 <div id="contact-links">
   <a href="mailto:mynameisbobbylewis@hotmail.com">email</a>
@@ -15,6 +16,10 @@
 </div>
 
 <style>
+  #heading-div {
+    padding: 0 15vw;
+  }
+
   #contact-links {
     display: flex;
     flex-direction: column;

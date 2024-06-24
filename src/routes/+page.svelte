@@ -1,4 +1,6 @@
-<script>  
+<script>
+  import Heading from '$lib/components/heading.svelte';
+  import SubHeading from '$lib/components/subHeading.svelte';
   import Typewriter from 'svelte-typewriter';
   import { onMount } from 'svelte';
   let canvas;
@@ -46,49 +48,22 @@
 </script>
 <div id="main-container">
   <div id="content-container">
-    <Typewriter interval=60>
-      <h1 id="heading">Robert Edward Lewis III</h1>
-    </Typewriter>
-    
-    <Typewriter mode=scramble scrambleDuration=2000>
-      <h2 id="subHeading">Frontend Programmer, Wielder of Javascript</h2>
-    </Typewriter>
+    <Heading heading={'Robert Edward Lewis III'}/>
+    <SubHeading subHeading={'Frontend Programmer, Wielder of Javascript'}/>    
   
     <div id="flower-div">
       <canvas bind:this={canvas} />
     </div>
-  </div>
-  
+  </div>  
 </div>
 
 
 
 <style>
-  #heading {    
-    color: rgb(250, 192, 117);
-    /* text-align: center; */
-    padding: 2rem;
-    padding-bottom: 0;
-    --cursor-color: #121212;    
-  }
-
-  #subHeading { 
-    padding-left: 2rem;
-    color: rgb(189, 110, 149);
-    font-weight: 200;    
-    
-  }
-
   #main-container {
-    padding: 0 15vw; 
-    /* background-color: rgb(170, 170, 170); */
-    
+    padding: 0 15vw;    
   }
-
-  #content-container {
-    /* background-color: gray; */
-  }
-
+  
   canvas {
     padding-top: 3rem;
     display: flex;
@@ -96,8 +71,7 @@
     /* background-color: black; */
   }
 
-  #flower-div {
-    
+  #flower-div {    
     display: flex;
     justify-content: center;
   }
