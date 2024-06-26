@@ -1,7 +1,7 @@
 <script>
   import Heading from '$lib/components/heading.svelte';
-  import SubHeading from '$lib/components/subHeading.svelte';
-  import Typewriter from 'svelte-typewriter';
+  import SubHeading from '$lib/components/subHeading.svelte';  
+  // import Typewriter from 'svelte-typewriter';
   import { onMount } from 'svelte';
   let canvas;
 
@@ -65,14 +65,16 @@
   }
   
   canvas {
-    padding-top: 3rem;
+    padding-top: 5rem;
     display: flex;
     place-items: center;
     /* background-color: black; */
   }
 
-  #flower-div {    
+  #flower-div {
+    padding: 3rem;   
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 </style>

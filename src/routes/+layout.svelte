@@ -23,7 +23,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 8vh;
+    height: 5rem;
   }
 
   #nav-logo {

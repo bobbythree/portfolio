@@ -7,9 +7,10 @@
   <h1 id="heading">{heading}</h1>
 </Typewriter>
 
-
 <style>
-  #heading {       
+  #heading {
+    position: absolute;
+    top: 70px;    
     color: rgb(250, 192, 117);    
     padding: 2rem;
     padding-bottom: 0;

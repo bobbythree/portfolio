@@ -7,9 +7,10 @@
   <h2 id="subHeading">{subHeading}</h2>
 </Typewriter>
 
-
 <style>
-  #subHeading {      
+  #subHeading {
+    position: absolute;
+    top: 140px;       
     padding-left: 2rem;
     color: rgb(189, 110, 149);
     font-weight: 200;    
