@@ -27,7 +27,7 @@
   #bio {
     text-align: end;
     padding: 8rem 15rem;
-    color: rgb(97, 159, 124);;
+    color: rgb(97, 159, 124);
   }
 
   span {
