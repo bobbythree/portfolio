@@ -19,7 +19,6 @@
 
   #nav-bar {
     background-color: #121212;    
-    color: rgb(221, 221, 221);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,7 +27,7 @@
   }
 
   #nav-logo {
-    color: rgb(221, 221, 221);
+    color: antiquewhite;
     
   }
 
@@ -40,7 +39,7 @@
 
   a {    
     text-decoration: none;
-    color: rgb(221, 221, 221);
+    color: antiquewhite;
   }
 
   a:hover {

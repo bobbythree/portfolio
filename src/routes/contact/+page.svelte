@@ -23,18 +23,22 @@
   #contact-links {
     display: flex;
     flex-direction: column;
-    padding: 10vh 19vw;
+    padding: 10vh 15vw;
     font-size: 2em;
     gap: 1rem;
+    /* background-color: white; */
   }
 
   #contact-links a {
+    width: 0;   
     color: rgb(97, 159, 124);;
     text-decoration: none;
+    padding-left: 2rem;
+    /* background-color: gray; */
   }
 
   #contact-links a:hover {
-    color: steelblue;
+    color: antiquewhite;
     text-decoration: underline;    
     text-decoration-thickness: 2px;
     transition: 0.5s;

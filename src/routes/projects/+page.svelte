@@ -19,26 +19,46 @@
 
 
 
-<div id="project-list">
-  <!-- {#each projects as project}  
-  <div id="{project}">
-    <h2 class="title">{project}</h2>
-    <h3 class="description">{descriptions}</h3>         
-  </div>
-  {/each} -->
-  
+<div id="project-list">  
   <div id="ixonia">
     <h2 class="title">Ixonia!</h2>
-    <h3 class="description">a text based adventure game</h3>
+    <h3 class="description">
+      a text based adventure game      
+    </h3>
+    <div class="icons">
+      <a href="https://github.com/bobbythree/ixonia" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" height="33px" viewBox="0 -960 960 960" width="33px" fill="#808080"><path d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z"/></svg>
+      </a>
+      <a href="/">
+        <svg xmlns="http://www.w3.org/2000/svg" height="33px" viewBox="0 -960 960 960" width="33px" fill="#808080"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z"/></svg>
+      </a>
+    </div>    
   </div>  
   
   <div id="canvas">
     <h2 class="title">Bubbles</h2>
     <h3 class="description">a simple animation built with HTML Canvas</h3>
+    <div class="icons">
+      <a href="https://github.com/bobbythree/HTML-canvas-bubbles" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" height="33px" viewBox="0 -960 960 960" width="33px" fill="#808080"><path d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z"/></svg>
+      </a>
+      <a href="/">
+        <svg xmlns="http://www.w3.org/2000/svg" height="33px" viewBox="0 -960 960 960" width="33px" fill="#808080"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z"/></svg>
+      </a>
+      
+    </div> 
   </div>
   <div id="drum-machine">
     <h2 class="title">Drum Machine</h2>
     <h3 class="description">a drum machine and sequencer built with Javascript</h3>
+    <div class="icons">
+      <a href="https://github.com/bobbythree/drum-machine" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" height="33px" viewBox="0 -960 960 960" width="33px" fill="#808080"><path d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z"/></svg>
+      </a>
+      <a href="/">
+        <svg xmlns="http://www.w3.org/2000/svg" height="33px" viewBox="0 -960 960 960" width="33px" fill="#808080"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z"/></svg>
+      </a>
+    </div> 
   </div>  
 </div>
 
@@ -51,33 +71,29 @@
     padding: 10vh 15vw;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 2rem;      
-  }
-
-  #ixonia, #canvas, #drum-machine {
-    max-width: 600px;
-    padding: 1rem 0;
-    border: 3px, solid rgb(36, 36, 36);
-    border-radius: 5px;
-    background-color: black;
-  }
-
-  #ixonia:hover,
-  #canvas:hover,
-  #drum-machine:hover {
-    background-color: rgb(36, 36, 36);   
-    transition: 0.3s;
-  }
+  }  
 
   .title {
     color: rgb(189, 110, 149);
+    padding-left: 2rem;    
+  }
+
+  .description {
+    color: #808080;
     padding-left: 2rem;
     
   }
 
-  .description {
-    color: gray;
+  .icons {
     padding-left: 2rem;
-    
+        
   }
+
+  svg:hover {
+    fill: #4682B4;
+    transition: 0.5s;
+  }
+  
 </style>

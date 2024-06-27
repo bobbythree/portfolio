@@ -17,21 +17,21 @@
     
     function drawFlower() {
       ctx.globalCompositeOperation = 'destination-over'
-      let angle = number * 5 ;
+      let angle = number * 5;
       let radius = scale * Math.sqrt(number);
       let posX = radius * Math.sin(angle) + canvas.width / 2;
       let posY = radius * Math.cos(angle) + canvas.height / 2; 
 
       ctx.fillStyle = 'black'; 
-      ctx.strokeStyle = 'steelblue';
+      ctx.strokeStyle = 'steelblue';  
       ctx.lineWidth = 4;
       ctx.beginPath();
       ctx.arc(posX, posY, number, 0, Math.PI * 2);
       ctx.closePath();
       ctx.fill();
       ctx.stroke();
-
-      number ++;      
+      
+      number++
     }
 
     function animateFlower() {  
