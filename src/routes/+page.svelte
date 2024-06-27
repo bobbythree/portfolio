@@ -7,8 +7,8 @@
 
   onMount(() => {
     const ctx = canvas.getContext('2d');    
-    canvas.width = 500;
-    canvas.height = 500;
+    canvas.width = 600;
+    canvas.height = 600;
 
     //flower variables    
     let number = 0;

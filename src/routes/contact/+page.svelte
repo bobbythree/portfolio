@@ -10,9 +10,15 @@
 </div>
 
 <div id="contact-links">
-  <a href="mailto:mynameisbobbylewis@hotmail.com">email</a>
-  <a href="https://github.com/bobbythree">GitHub</a>
-  <a href="https://www.linkedin.com/in/robert-lewis-iii-314497290/">LinkedIn</a>
+  <a href="mailto:mynameisbobbylewis@hotmail.com">
+    <h2>email</h2>
+  </a>
+  <a href="https://github.com/bobbythree">
+    <h2>GitHub</h2>
+  </a>
+  <a href="https://www.linkedin.com/in/robert-lewis-iii-314497290/">
+    <h2>LinkedIn</h2>
+  </a>
 </div>
 
 <style>
@@ -23,15 +29,15 @@
   #contact-links {
     display: flex;
     flex-direction: column;
-    padding: 10vh 15vw;
-    font-size: 2em;
+    padding: 8rem 15vw;
+    
     gap: 1rem;
     /* background-color: white; */
   }
 
   #contact-links a {
     width: 0;   
-    color: rgb(97, 159, 124);;
+    color: rgb(189, 110, 149);
     text-decoration: none;
     padding-left: 2rem;
     /* background-color: gray; */

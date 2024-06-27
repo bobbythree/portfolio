@@ -68,7 +68,7 @@
   }
 
   #project-list {
-    padding: 10vh 15vw;
+    padding: 8rem 15vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,7 +81,7 @@
   }
 
   .description {
-    color: #808080;
+    color: steelblue;
     padding-left: 2rem;
     
   }
@@ -92,7 +92,7 @@
   }
 
   svg:hover {
-    fill: #4682B4;
+    fill: white;
     transition: 0.5s;
   }
   

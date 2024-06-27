@@ -39,7 +39,7 @@
 
   a {    
     text-decoration: none;
-    color: antiquewhite;
+    color: gray;
   }
 
   a:hover {

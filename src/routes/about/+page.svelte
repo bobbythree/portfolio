@@ -27,11 +27,11 @@
   #bio {
     text-align: start;
     padding: 8rem 15vw;
-    color: rgb(97, 159, 124);
+    color: steelblue;    
   }
 
   p {
-    padding-left: 2rem;
+    padding-left: 2rem;    
   }
 
   span {
