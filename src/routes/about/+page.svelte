@@ -25,9 +25,13 @@
   }
 
   #bio {
-    text-align: end;
-    padding: 8rem 15rem;
+    text-align: start;
+    padding: 8rem 15vw;
     color: rgb(97, 159, 124);
+  }
+
+  p {
+    padding-left: 2rem;
   }
 
   span {

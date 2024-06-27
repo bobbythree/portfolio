@@ -34,9 +34,8 @@
   }
 
   #contact-links a:hover {
-    color: rgb(175, 234, 255);
-    text-decoration: underline;
-    text-decoration-color: rgb(193, 237, 179);
+    color: steelblue;
+    text-decoration: underline;    
     text-decoration-thickness: 2px;
     transition: 0.5s;
   }

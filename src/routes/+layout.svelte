@@ -18,16 +18,18 @@
 <style>
 
   #nav-bar {
-    background-color: #121212;
+    background-color: #121212;    
     color: rgb(221, 221, 221);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 10rem;
     height: 5rem;
   }
 
   #nav-logo {
     color: rgb(221, 221, 221);
+    
   }
 
   .nav-links {    
@@ -42,7 +44,7 @@
   }
 
   a:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: underline;    
     transition: 0.5s;
   }

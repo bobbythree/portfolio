@@ -10,8 +10,7 @@
     canvas.width = 500;
     canvas.height = 500;
 
-    //flower variables
-    let hue = 0;
+    //flower variables    
     let number = 0;
     let scale = 10;
 
@@ -32,8 +31,7 @@
       ctx.fill();
       ctx.stroke();
 
-      number ++;
-      hue += 2;
+      number ++;      
     }
 
     function animateFlower() {  
@@ -61,20 +59,19 @@
 
 <style>
   #main-container {
-    padding: 0 15vw;    
+    padding: 0 15vw;      
   }
   
   canvas {
     padding-top: 5rem;
     display: flex;
-    place-items: center;
-    /* background-color: black; */
+    place-items: center;    
   }
 
   #flower-div {
     padding: 3rem;   
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;   
   }
 </style>
