@@ -68,27 +68,38 @@
   }
 
   #project-list {
-    padding: 8rem 15vw;
+    width: 700px;
+    background-color: rgb(0, 0, 0);
+    margin: 8rem 15vw;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2rem;      
-  }  
+    gap: 1rem;
+    border-radius: 0.5rem;       
+  }
 
   .title {
+    background-color: rgb(30, 30, 30);
     color: rgb(189, 110, 149);
-    padding-left: 2rem;    
+    padding: 1rem 2rem;
+    padding-bottom: 0; 
+    border-top-left-radius: 0.5rem;  
+    border-top-right-radius: 0.5rem;  
   }
 
   .description {
+    background-color: rgb(30, 30, 30);
     color: steelblue;
-    padding-left: 2rem;
-    
+    padding-left: 2rem;    
   }
 
   .icons {
+    background-color: rgb(30, 30, 30);
     padding-left: 2rem;
-        
+    padding-bottom: 0.7rem;
+    border-bottom-left-radius: 0.5rem;  
+    border-bottom-right-radius: 0.5rem;        
   }
 
   svg:hover {
