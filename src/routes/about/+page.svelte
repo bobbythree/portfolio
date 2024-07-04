@@ -13,7 +13,7 @@
     <p>
       <span class="bio-heading">HISTORY:</span>
       <br>
-      My love of computers dates all the way back to when I was a small child. As soon as I got my hands on my first computer I was trying to figure out how it worked and what I could do with it. I spent a lot of those early years playing text adventure games and tinkering with the command line. Computers have always remained a part of my life through work, music and gaming. I never had a computer or tech job per se, but at my past jobs, I have been the employee who best understood the computer system we used on the job, be it a point of sale software and shipping/recieving software in retail, or electronic medical records (EMR) software in clinical environments. Instead of memorizing computer tasks, I always found a deeper understanding of how things worked and so could solve problems and improvise when needed. As a musician and audio engineer, I have learned to operate multiple recording software suites such as Logic, Pro Tools and Studio one. To this day I still enjoy adventure games and hacking away at the terminal.
+      My love of computers dates all the way back to when I was a small child. As soon as I got my hands on my first computer I was trying to figure out how it worked and what I could do with it. I spent a lot of those early years playing text adventure games and tinkering with the command line. Computers have always remained a part of my life through work, music and gaming. I never had a computer or tech job per se, but at my past jobs, I have been the employee who best understood the computer programs we used on the job, be it point of sale software and shipping/recieving software in retail, or electronic medical records (EMR) software in clinical environments. Instead of memorizing computer tasks, I always found a deeper understanding of how things worked and so could solve problems and improvise when needed. As a musician and audio engineer, I have learned to operate multiple complex recording software suites such as Logic, Pro Tools and Studio one. To this day I still enjoy adventure games and hacking away at the terminal.
     </p>
     <br>
     <p>
@@ -38,19 +38,19 @@
   }
 
   .bio-heading {
-    color: rgb(189, 110, 149);;
+    color: hsl(123, 33%, 65%);
   }
 
   #bio {
     text-align: start;
-    padding: 8rem 15vw;
-    color: steelblue;    
-  }
+    margin: 8rem 15vw;
+    padding-left: 1rem;
+    color: hsl(207, 33%, 55%)  }
 
   #p-div {
     background-color: rgb(0, 0, 0);
     padding: 1rem;    
-    border-radius: 0.5rem;
+    border-radius: 5px;
     
   }
 
@@ -58,10 +58,12 @@
     padding-left: 2rem;
     background-color: rgb(30, 30, 30);
     padding: 1rem;
-    border-radius: 0.5rem;
+    border-width: 1px;
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 5px;
   }
 
   span {
-    color: antiquewhite;
+    color: hsl(34, 50%, 91%);
   }
 </style>

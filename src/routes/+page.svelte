@@ -1,56 +1,57 @@
 <script>
   import Heading from '$lib/components/heading.svelte';
-  import SubHeading from '$lib/components/subHeading.svelte';  
-  // import Typewriter from 'svelte-typewriter';
-  import { onMount } from 'svelte';
-  let canvas;
+  import SubHeading from '$lib/components/subHeading.svelte';
+  
+  // import { onMount } from 'svelte';
+  // let canvas;
 
-  onMount(() => {
-    const ctx = canvas.getContext('2d');    
-    canvas.width = 600;
-    canvas.height = 600;
+  // onMount(() => {
+  //   const ctx = canvas.getContext('2d');    
+  //   canvas.width = 600;
+  //   canvas.height = 600;
 
     //flower variables    
-    let number = 0;
-    let scale = 10;
+    // let number = 0;
+    // let scale = 10;
 
     
-    function drawFlower() {
-      ctx.globalCompositeOperation = 'destination-over'
-      let angle = number * 5;
-      let radius = scale * Math.sqrt(number);
-      let posX = radius * Math.sin(angle) + canvas.width / 2;
-      let posY = radius * Math.cos(angle) + canvas.height / 2; 
+  //   function drawFlower() {
+  //     ctx.globalCompositeOperation = 'destination-over'
+  //     let angle = number * 5;
+  //     let radius = scale * Math.sqrt(number);
+  //     let posX = radius * Math.sin(angle) + 250;
+  //     let posY = radius * Math.cos(angle) + 300; 
 
-      ctx.fillStyle = 'black'; 
-      ctx.strokeStyle = 'steelblue';  
-      ctx.lineWidth = 4;
-      ctx.beginPath();
-      ctx.arc(posX, posY, number, 0, Math.PI * 2);
-      ctx.closePath();
-      ctx.fill();
-      ctx.stroke();
+  //     ctx.fillStyle = 'black'; 
+  //     ctx.strokeStyle = 'steelblue';  
+  //     ctx.lineWidth = 4;
+  //     ctx.beginPath();
+  //     ctx.arc(posX, posY, number, 0, Math.PI * 2);
+  //     ctx.closePath();
+  //     ctx.fill();
+  //     ctx.stroke();
       
-      number++
-    }
+  //     number++
+  //   }
 
-    function animateFlower() {  
-      drawFlower();
-      if (number > 100) return;
-      requestAnimationFrame(animateFlower);
-    }
-    animateFlower();
-  });
+  //   function animateFlower() {  
+  //     drawFlower();
+  //     if (number > 100) return;
+  //     requestAnimationFrame(animateFlower);
+  //   }
+  //   animateFlower();
+  // });
 
   
 </script>
+
 <div id="main-container">
-  <div id="content-container">
-    <Heading heading={'Robert Edward Lewis III'}/>
-    <SubHeading subHeading={'Frontend Programmer, Wielder of Javascript'}/>    
-  
-    <div id="flower-div">
-      <canvas bind:this={canvas} />
+  <Heading heading={'Robert Edward Lewis III'}/>
+  <SubHeading subHeading={'Frontend Programmer, Wielder of Javascript'}/>    
+  <div id="image-container">
+    <!-- <canvas bind:this={canvas} />     -->
+    <div id="text-div">
+      this is a test
     </div>
   </div>  
 </div>
@@ -59,19 +60,25 @@
 
 <style>
   #main-container {
-    padding: 0 15vw;      
-  }
-  
-  canvas {
-    padding-top: 5rem;
-    display: flex;
-    place-items: center;    
+    padding: 0 15vw;         
   }
 
-  #flower-div {
-    padding: 3rem;   
-    display: flex;
-    justify-content: center;
-    align-items: center;   
+  #image-container {
+    margin-top: 10rem;
+    margin-left: 1rem;
+    height: 25rem;
+    background-image: url('src/lib/images/scribble.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
   }
+
+  #text-div {
+    padding: 2rem;
+    height: 5rem;
+    background-color: rgba(240, 240, 240, 0.07);
+    backdrop-filter: blur(2px);
+    color: hsl(207, 33%, 60%);
+      
+  }
+  
 </style>
