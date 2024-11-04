@@ -47,7 +47,7 @@
 
 <div id="main-container">
   <Heading heading={'Robert Edward Lewis III'}/>
-  <SubHeading subHeading={'Frontend Programmer, Wielder of Javascript'}/>    
+  <SubHeading subHeading={'Computer Programmer. Wielder of Javascript/Python/mySQL'}/>    
   <div id="image-container">
     <canvas bind:this={canvas} />
   </div>  
