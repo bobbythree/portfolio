@@ -10,13 +10,13 @@
 </div>
 
 <div id="contact-links">
-  <a href="mailto:mynameisbobbylewis@hotmail.com">
+  <a href="mailto:mynameisbobbylewis@hotmail.com" target="_blank" rel="noopener noreferrer">
     <h2>email</h2>
   </a>
-  <a href="https://github.com/bobbythree">
+  <a href="https://github.com/bobbythree" target="_blank" rel="noopener noreferrer">
     <h2>GitHub</h2>
   </a>
-  <a href="https://www.linkedin.com/in/robert-lewis-iii-314497290/">
+  <a href="https://www.linkedin.com/in/robert-lewis-iii-314497290/" target="_blank" rel="noopener noreferrer">
     <h2>LinkedIn</h2>
   </a>
 </div>

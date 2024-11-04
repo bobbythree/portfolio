@@ -4,20 +4,20 @@
   const projects = [
     {
       title: 'Ixonia!', 
-      description: 'a text based adventure game',
+      description: 'A multiple choice interactive fiction written in JavaScript',
       hrefCode: 'https://github.com/bobbythree/ixonia',
       hrefPlay: '/'
     },
     {
-      title: 'Bubbles', 
-      description: 'a simple animation built with HTML Canvas',
-      hrefCode: 'https://github.com/bobbythree/HTML-canvas-bubbles',
+      title: 'Maitreya\'s Quest', 
+      description: 'A text-based adventure game written in Python',
+      hrefCode: 'https://github.com/bobbythree/maitreya-text-adventure',
       hrefPlay: '/'
     },
     {
-      title: 'Drum Machine', 
-      description: 'a drum machine and sequencer built with Javascript',
-      hrefCode: 'https://github.com/bobbythree/drum-machine',
+      title: 'Python Project setup automation', 
+      description: 'A Python script that sets up a project directory with subdirectories',
+      hrefCode: 'https://github.com/bobbythree/py-project-structure-automation',
       hrefPlay: '/'
     },
     
@@ -51,8 +51,7 @@
           </a>
           <a href="{project.hrefPlay}" target="_blank" rel="noopener noreferrer">
             {@html icons[1]}
-          </a>
-               
+          </a>               
         </div>        
       </div>      
     {/each}
@@ -67,40 +66,51 @@
   #container {
     position: absolute;
     top: 22%;
-    left: 15%;    
+    left: 15%;
+    background-color: rgb(0, 0, 0);
+    padding: 1rem;    
+    border-radius: 5px;  
   }
 
-  #project-list {           
+  #project-list {
+    border-radius: 5px;         
     width: 700px;    
     display: flex;
     flex-direction: column;  
     justify-content: center;
     gap: 2rem;
-    border-radius: 0.5rem;       
+           
   }
 
   .project {
-    background-color: rgba(102, 102, 102, 0.2);
-    backdrop-filter: blur(3px);
+    background-color: rgb(30, 30, 30);
     border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
   }
 
   .title {    
-    color: hsl(207, 33%, 60%);;
+    color: hsl(207, 33%, 60%);
     padding: 1rem 2rem;
-    padding-bottom: 0;     
+    padding-bottom: 0;
+    border-top: 1px solid rgb(82, 82, 82);
+    border-left: 1px solid rgb(82, 82, 82);
+    border-right: 1px solid rgb(82, 82, 82);     
   }
  
   .description {    
     color: rgb(223, 223, 223);
     padding-left: 2rem;
-    font-weight: 100;   
+    font-weight: 100;
+    border-left: 1px solid rgb(82, 82, 82);
+    border-right: 1px solid rgb(82, 82, 82);   
   }
 
   .icons {    
     padding-left: 2rem;
-    padding-bottom: 0.7rem;            
+    padding-bottom: 0.7rem;
+    border-bottom: 1px solid rgb(82, 82, 82);
+    border-left: 1px solid rgb(82, 82, 82);
+    border-right: 1px solid rgb(82, 82, 82);
   }
 
   
