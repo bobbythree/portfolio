@@ -6,7 +6,7 @@
       title: 'Ixonia!', 
       description: 'A multiple choice interactive fiction written in JavaScript',
       hrefCode: 'https://github.com/bobbythree/ixonia',
-      hrefPlay: '/'
+      hrefPlay: 'https://bobbythree.github.io/ixonia/'
     },
     {
       title: 'Maitreya\'s Quest', 
