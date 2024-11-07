@@ -67,6 +67,7 @@
     position: absolute;
     top: 22%;
     left: 15%;
+    
     background-color: rgb(0, 0, 0);
     padding: 1rem;    
     border-radius: 5px;  
@@ -90,7 +91,7 @@
 
   .title {    
     color: hsl(207, 33%, 60%);
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
     padding-bottom: 0;
     border-top: 1px solid rgb(82, 82, 82);
     border-left: 1px solid rgb(82, 82, 82);
@@ -107,7 +108,7 @@
 
   .icons {    
     padding-left: 2rem;
-    padding-bottom: 0.7rem;
+    padding-bottom: 1.7rem;
     border-bottom: 1px solid rgb(82, 82, 82);
     border-left: 1px solid rgb(82, 82, 82);
     border-right: 1px solid rgb(82, 82, 82);

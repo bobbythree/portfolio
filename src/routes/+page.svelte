@@ -47,10 +47,12 @@
 
 <div id="main-container">
   <Heading heading={'Robert Edward Lewis III'}/>
-  <SubHeading subHeading={'Computer Programmer. Wielder of Javascript/Python/mySQL'}/>    
+  <SubHeading subHeading={'Computer Programmer. Wielder of JavaScript/Python/mySQL'}/>    
   <div id="image-container">
     <canvas bind:this={canvas} />
-  </div>  
+    
+  </div>
+  kjhkjhkjh  
 </div>
 
 
@@ -65,6 +67,7 @@
     margin-left: 1rem;
     
   }
+  
 
   
 </style>
