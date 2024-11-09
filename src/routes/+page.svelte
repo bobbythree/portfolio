@@ -18,8 +18,8 @@
       ctx.globalCompositeOperation = "destination-over";
       let angle = number * 5;
       let radius = scale * Math.sqrt(number);
-      let posX = radius * Math.sin(angle) + 250;
-      let posY = radius * Math.cos(angle) + 300;
+      let posX = radius * Math.sin(angle) + canvas.width / 2;
+      let posY = radius * Math.cos(angle) + canvas.height / 2;
 
       ctx.fillStyle = "black";
       ctx.strokeStyle = "steelblue";
@@ -42,11 +42,16 @@
   });
 </script>
 
-<div id="main-container">
+<div id="heading-div">
   <Heading heading={"Robert Edward Lewis III"} />
   <SubHeading
     subHeading={"Computer Programmer. Wielder of JavaScript/Python/mySQL"}
   />
+</div>
+
+
+<div id="main-container">
+  
   <div id="flower-container">
     <canvas bind:this={canvas} />
   </div>
@@ -72,7 +77,7 @@
         <br />
         <p>
           <span class="bio-heading">EXPERIENCE:</span>
-          <br /><br />
+          <br />
           I have 1.5 years of experience building personal projects such as web apps,
           automation scripts, text adventures, simple audio software, text parsers,
           RESTful APIs, particle systems, and web animations. I have experience with
@@ -84,26 +89,34 @@
 </div>
 
 <style>
+  #heading-div {
+    padding-left: 15vw;
+  }
+
   #main-container {
-    padding: 0 15vw;
+    padding-left: 15vw;
     display: flex;
   }
 
   #flower-container {
     margin-top: 8rem;
     margin-left: 1rem;
-    width: 600px;
+    width: 50vw;
   }
 
   .bio-heading {
     color: hsl(123, 33%, 65%);
   }
 
+  #bio-container {
+    max-width: 100%;
+  }
+
   #bio {
     margin: 10rem 3rem;
     padding-left: 1rem;
     color: hsl(207, 33%, 55%);
-    width: 40rem;    
+    max-width: 100%;    
   }
 
   p {
@@ -112,9 +125,67 @@
     border-width: 1px;
     border: 1px solid rgb(82, 82, 82);
     border-radius: 5px;
+    max-width: 90%;
   }
 
   span {
     color: hsl(34, 50%, 88%);
   }
+
+  @media screen and (max-width: 1200px) {
+    #main-container {
+      padding: 0;
+      display: flex;
+      
+    }
+    #bio-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40vw;
+    }
+    
+    
+  }
+  
+  @media screen and (max-width: 1089px) {
+    #main-container {
+      padding-left: 15vw;
+      flex-direction: column;
+    }
+    #bio-container{
+      width: 90%;
+    }
+    #bio {
+      width: 100%;
+      margin: 3rem;
+      padding: 0;
+      width: 50vw;
+    }
+  }
+
+  
+
+  @media screen and (max-width: 800px) {
+    #heading-div {
+      padding: 0;
+    }
+    #main-container {
+      padding: 0;
+    }
+    #bio-container {
+      justify-content: flex-start;
+    }
+    #p-div {
+      width: 90vw;
+    }
+
+  }
+
+  @media screen and (max-width: 600px) {
+    canvas {
+      width: 75vw;
+    }
+  }
+  
 </style>

@@ -15,4 +15,10 @@
     color: rgb(189, 110, 149);
     font-weight: 200;    
   }
+
+  @media screen and (max-width: 600px) {
+  #subHeading {
+    font-size: 18px;
+  }
+}
 </style>

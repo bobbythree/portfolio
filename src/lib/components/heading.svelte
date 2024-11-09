@@ -16,4 +16,10 @@
     padding-bottom: 0;
     --cursor-color: #121212;    
 }
+
+@media screen and (max-width: 600px) {
+  #heading {
+    font-size: 24px;
+  }
+}
 </style>

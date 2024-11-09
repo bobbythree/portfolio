@@ -47,4 +47,14 @@
     text-decoration: underline;    
     transition: 0.5s;
   }
+
+  @media screen and (max-width: 666px) {
+    #nav-bar {
+      justify-content: space-evenly;
+    }
+
+    #nav-logo {
+      display: none;
+    }
+  }
 </style>
