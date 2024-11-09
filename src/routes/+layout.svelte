@@ -6,7 +6,7 @@
   <h3 id="nav-logo">RELIII</h3>
     <div class="nav-links">
       <a href="/">home</a>
-      {#each ['about', 'projects', 'contact'] as link}
+      {#each ['projects', 'contact'] as link}
         <a href="{link}">{link}</a>
       {/each}
     
