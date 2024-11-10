@@ -3,24 +3,33 @@
 
   const projects = [
     {
-      title: 'Ixonia!', 
-      description: 'A multiple choice interactive fiction written in JavaScript',
+      title: 'Ixonia!',
+      description: 'An interactive fiction written in JavaScript',
+      image: "src/lib/images/ixoniaThumbnail.png",
       hrefCode: 'https://github.com/bobbythree/ixonia',
       hrefPlay: 'https://bobbythree.github.io/ixonia/'
     },
     {
       title: 'Maitreya\'s Quest', 
       description: 'A text-based adventure game written in Python',
+      image: "src/lib/images/maitreyaThumbnail.png",
       hrefCode: 'https://github.com/bobbythree/maitreya-text-adventure',
       hrefPlay: '/'
     },
     {
-      title: 'Python Project setup automation', 
-      description: 'A Python script that sets up a project directory with subdirectories',
+      title: 'Automation script', 
+      description: 'A Python script for setting up project files',
+      image: "src/lib/images/automationThumbnail.png",
       hrefCode: 'https://github.com/bobbythree/py-project-structure-automation',
       hrefPlay: '/'
     },
-    
+    {
+      title: 'Bubbles', 
+      description: 'An animation built with the JS Canvas API',
+      image: "src/lib/images/bubblesThumbnail.png",
+      hrefCode: 'https://github.com/bobbythree/HTML-canvas-bubbles',
+      hrefPlay: '/'
+    },
   ];
   
   const icons = [
@@ -43,6 +52,7 @@
   <div id="project-list">
     {#each projects as project}
       <div class="project">
+        <img class="image" src="{project.image}" alt="thumbnail">
         <h2 class="title">{project.title}</h2>
         <h3 class="description">{project.description}</h3>
         <div class="icons">
@@ -64,55 +74,78 @@
   }
   
   #container {
-    position: absolute;
-    top: 22%;
-    left: 15%;
-    
-    background-color: rgb(0, 0, 0);
-    padding: 1rem;    
-    border-radius: 5px;  
+    width: 100%;
   }
 
   #project-list {
-    border-radius: 5px;         
-    width: 700px;    
-    display: flex;
-    flex-direction: column;  
-    justify-content: center;
-    gap: 2rem;
-           
+    margin: 8rem 15vw;       
+    width: 40vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 3rem;
   }
 
   .project {
     background-color: rgb(30, 30, 30);
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 5px;
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    
+  }
+
+  .image {
+    width: 14rem;
+    height: 13rem;
+    padding: 1rem;
+    padding-bottom: 0;
   }
 
   .title {    
     color: hsl(207, 33%, 60%);
-    padding: 2rem 2rem;
+    padding: 2rem;
     padding-bottom: 0;
-    border-top: 1px solid rgb(82, 82, 82);
-    border-left: 1px solid rgb(82, 82, 82);
-    border-right: 1px solid rgb(82, 82, 82);     
+      
   }
  
   .description {    
-    color: rgb(223, 223, 223);
-    padding-left: 2rem;
+    color: rgba(250, 235, 215, 0.829);
+    padding: 2rem;
     font-weight: 100;
-    border-left: 1px solid rgb(82, 82, 82);
-    border-right: 1px solid rgb(82, 82, 82);   
+    text-align: center; 
   }
 
   .icons {    
-    padding-left: 2rem;
     padding-bottom: 1.7rem;
-    border-bottom: 1px solid rgb(82, 82, 82);
-    border-left: 1px solid rgb(82, 82, 82);
-    border-right: 1px solid rgb(82, 82, 82);
+    
   }
 
-  
+  @media screen and (max-width: 1400px) {
+    #project-list {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    #project-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 666px) {
+    #container {
+      display: flex;
+      /* align-items: center; */
+      justify-content: center;
+    }
+
+    #project-list {
+      grid-template-columns: 1fr;
+      margin-top: 3rem;
+      width: 14rem;
+    }
+  }
 </style>

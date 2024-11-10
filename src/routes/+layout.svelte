@@ -23,12 +23,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 10rem;
-    height: 5rem;
+    height: 10vh;
   }
 
   #nav-logo {
-    color: antiquewhite;
-    
+    color: antiquewhite;    
   }
 
   .nav-links {    
@@ -43,7 +42,7 @@
   }
 
   a:hover {
-    color: rgb(255, 255, 255);
+    color: antiquewhite;
     text-decoration: underline;    
     transition: 0.5s;
   }
