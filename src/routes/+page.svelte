@@ -109,6 +109,8 @@
 
   #bio-container {
     margin-top: 8rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
     max-width: 100%;
   }
 
@@ -130,8 +132,14 @@
   span {
     color: hsl(34, 50%, 88%);
   }
+
+  @media screen and (max-width: 1368px) {
+    #bio-container {
+      margin-left: 0;
+    }
+  }
   
-  @media screen and (max-width: 1089px) {
+  @media screen and (max-width: 1260px) {
     #main-container {
       padding: 0;
       flex-direction: column;
@@ -145,6 +153,7 @@
     }
     #bio-container{
       margin-top: 0;
+      margin-left: 5rem;
       width: 100%;
       display: flex;
       align-items: center;
