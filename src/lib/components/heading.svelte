@@ -17,7 +17,7 @@
     --cursor-color: #121212;    
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 666px) {
   #heading {
     font-size: 24px;
     position: static;

@@ -16,7 +16,7 @@
     font-weight: 200;    
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 666px) {
   #subHeading {
     font-size: 18px;
     position: static;
