@@ -125,42 +125,34 @@
     border-width: 1px;
     border: 1px solid rgb(82, 82, 82);
     border-radius: 5px;
-    max-width: 90%;
   }
 
   span {
     color: hsl(34, 50%, 88%);
   }
-
-  @media screen and (max-width: 1200px) {
-    #main-container {
-      padding: 0;
-      display: flex;
-      
-    }
-    #bio-container{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 40vw;
-    }
-    
-    
-  }
   
   @media screen and (max-width: 1089px) {
     #main-container {
-      padding-left: 15vw;
+      padding: 0;
       flex-direction: column;
     }
+    #flower-container {   
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
     #bio-container{
-      width: 90%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     #bio {
       width: 100%;
       margin: 3rem;
       padding: 0;
-      width: 50vw;
+      width: 75vw;
     }
   }
 
@@ -173,19 +165,28 @@
     #main-container {
       padding: 0;
     }
-    #bio-container {
-      justify-content: flex-start;
-    }
-    #p-div {
-      width: 90vw;
-    }
-
   }
 
   @media screen and (max-width: 600px) {
+    #flower-container {
+      margin-top: 3rem;
+    }
     canvas {
       width: 75vw;
     }
+    #bio-container {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #bio {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
   }
   
 </style>

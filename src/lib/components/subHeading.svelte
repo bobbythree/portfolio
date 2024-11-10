@@ -19,6 +19,9 @@
   @media screen and (max-width: 600px) {
   #subHeading {
     font-size: 18px;
+    position: static;
+    text-align: center;
+    padding: 0 1rem;
   }
 }
 </style>

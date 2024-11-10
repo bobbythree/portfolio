@@ -20,6 +20,8 @@
 @media screen and (max-width: 600px) {
   #heading {
     font-size: 24px;
+    position: static;
+    text-align: center;
   }
 }
 </style>
