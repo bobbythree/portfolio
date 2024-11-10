@@ -109,11 +109,12 @@
   }
 
   #bio-container {
+    margin-top: 8rem;
     max-width: 100%;
   }
 
   #bio {
-    margin: 10rem 3rem;
+    margin: 4rem 4rem;
     padding-left: 1rem;
     color: hsl(207, 33%, 55%);
     max-width: 100%;    
@@ -143,6 +144,7 @@
       justify-content: center;
     }
     #bio-container{
+      margin-top: 0;
       width: 100%;
       display: flex;
       align-items: center;
