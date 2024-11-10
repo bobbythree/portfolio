@@ -5,28 +5,28 @@
     {
       title: 'Ixonia!',
       description: 'An interactive fiction written in JavaScript',
-      image: "src/lib/images/ixoniaThumbnail.png",
+      image: "src/public/images/ixoniaThumbnail.png",
       hrefCode: 'https://github.com/bobbythree/ixonia',
       hrefPlay: 'https://bobbythree.github.io/ixonia/'
     },
     {
       title: 'Maitreya\'s Quest', 
       description: 'A text-based adventure game written in Python',
-      image: "src/lib/images/maitreyaThumbnail.png",
+      image: "src/public/images/maitreyaThumbnail.png",
       hrefCode: 'https://github.com/bobbythree/maitreya-text-adventure',
       hrefPlay: '/'
     },
     {
       title: 'Automation script', 
       description: 'A Python script for setting up project files',
-      image: "src/lib/images/automationThumbnail.png",
+      image: "src/public/images/automationThumbnail.png",
       hrefCode: 'https://github.com/bobbythree/py-project-structure-automation',
       hrefPlay: '/'
     },
     {
       title: 'Bubbles', 
       description: 'An animation built with the JS Canvas API',
-      image: "src/lib/images/bubblesThumbnail.png",
+      image: "src/public/images/bubblesThumbnail.png",
       hrefCode: 'https://github.com/bobbythree/HTML-canvas-bubbles',
       hrefPlay: '/'
     },
