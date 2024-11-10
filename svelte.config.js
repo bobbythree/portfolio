@@ -1,4 +1,5 @@
 import adapter from '@sveltejs/adapter-auto';
+import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -7,8 +8,8 @@ const config = {
 	  csrf: {
 		checkOrigin: process.env.NODE_ENV === "development" ? false : true,
 	  },
-	}
-	
+	},
+	preprocess: vitePreprocess(),
   };
-
-export default config;
+  
+  export default config;
