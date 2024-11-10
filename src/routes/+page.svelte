@@ -100,7 +100,6 @@
 
   #flower-container {
     margin-top: 8rem;
-    margin-left: 1rem;
     width: 50vw;
   }
 
@@ -136,6 +135,7 @@
     #main-container {
       padding: 0;
       flex-direction: column;
+      align-items: center;
     }
     #flower-container {   
       width: 100%;
