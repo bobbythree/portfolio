@@ -59,9 +59,9 @@
     <div id="bio">
       <div id="p-div">
         <p>
-          <span class="bio-heading">WHOAMI:</span>
+          <span class="bio-heading">$_WHOAMI:</span>
           <br />
-          My name is <span>Robert Lewis III</span> (Bobby Three). I am an entry level
+          My name is <span>Robert Edward Lewis III</span> (Bobby Three). I am an entry level
           computer programmer. I code for the absolute love of it. I am highly motivated
           to join a team as a backend dev or fullstack dev.
         </p>
@@ -121,11 +121,9 @@
     max-width: 100%;    
   }
 
-  p {
-    background-color: rgb(30, 30, 30);
+  p {    
     padding: 2rem;
-    border-width: 1px;
-    border: 1px solid rgb(82, 82, 82);
+    border-width: 1px;    
     border-radius: 5px;
   }
 

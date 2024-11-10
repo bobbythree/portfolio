@@ -1,32 +1,33 @@
 <script>
-  import Heading from '$lib/components/heading.svelte'; 
+  import Heading from '$lib/components/heading.svelte';
+  
 
   const projects = [
     {
       title: 'Ixonia!',
       description: 'An interactive fiction written in JavaScript',
-      image: "src/public/images/ixoniaThumbnail.png",
+      // image: "/public/ixoniaThumbnail.png",
       hrefCode: 'https://github.com/bobbythree/ixonia',
       hrefPlay: 'https://bobbythree.github.io/ixonia/'
     },
     {
       title: 'Maitreya\'s Quest', 
       description: 'A text-based adventure game written in Python',
-      image: "src/public/images/maitreyaThumbnail.png",
+      // image: "./maitreyaThumbnail.png",
       hrefCode: 'https://github.com/bobbythree/maitreya-text-adventure',
       hrefPlay: '/'
     },
     {
       title: 'Automation script', 
       description: 'A Python script for setting up project files',
-      image: "src/public/images/automationThumbnail.png",
+      // image: "./automationThumbnail.png",
       hrefCode: 'https://github.com/bobbythree/py-project-structure-automation',
       hrefPlay: '/'
     },
     {
       title: 'Bubbles', 
       description: 'An animation built with the JS Canvas API',
-      image: "src/public/images/bubblesThumbnail.png",
+      // image: "./bubblesThumbnail.png",
       hrefCode: 'https://github.com/bobbythree/HTML-canvas-bubbles',
       hrefPlay: '/'
     },
@@ -52,16 +53,13 @@
   <div id="project-list">
     {#each projects as project}
       <div class="project">
-        <img class="image" src="{project.image}" alt="thumbnail">
+        <!-- <img class="image" src="{project.image}" alt="thumbnail"> -->
         <h2 class="title">{project.title}</h2>
         <h3 class="description">{project.description}</h3>
         <div class="icons">
           <a href="{project.hrefCode}" target="_blank" rel="noopener noreferrer">
             {@html icons[0]}
-          </a>
-          <a href="{project.hrefPlay}" target="_blank" rel="noopener noreferrer">
-            {@html icons[1]}
-          </a>               
+          </a>              
         </div>        
       </div>      
     {/each}
@@ -79,7 +77,7 @@
 
   #project-list {
     margin: 8rem 15vw;       
-    width: 40vw;
+    /* width: 40vw; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
@@ -87,22 +85,21 @@
   }
 
   .project {
-    background-color: rgb(30, 30, 30);
-    border: 1px solid rgb(82, 82, 82);
+    /* background-color: rgb(30, 30, 30); */
+    /* border: 1px solid rgb(82, 82, 82); */
     border-radius: 6px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: baseline;
-    
+    justify-content: space-around;    
   }
 
-  .image {
+  /* .image {
     width: 14rem;
     height: 13rem;
     padding: 1rem;
     padding-bottom: 0;
-  }
+  } */
 
   .title {    
     color: hsl(207, 33%, 60%);
@@ -112,7 +109,7 @@
   }
  
   .description {    
-    color: rgba(250, 235, 215, 0.829);
+    color: hsl(123, 33%, 65%);
     padding: 2rem;
     font-weight: 100;
     text-align: center; 

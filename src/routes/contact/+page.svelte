@@ -22,9 +22,6 @@
     </a>
   </div>
   
-  <div id="image-div">
-    <img id="image" src="src/lib/images/blue-green.jpg" alt="scribble">
-  </div>
 </div>
 
 
@@ -60,9 +57,22 @@
     display: flex;
   }
 
-  #image {
-    margin-top: 15vh;
-    padding-right: 10vh;
-    width: 700px;
+  @media screen and (max-width: 666px) {
+    #container {
+      align-items: center;
+      justify-content: center ;
+    }
+
+    #contact-links {
+      padding-top: 5rem;
+      
+    }
+
+    #contact-links a{
+      width: 100%;
+      text-align: center;
+      padding-right: 2.5rem;
+    }
   }
+
 </style>
