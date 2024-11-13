@@ -57,7 +57,7 @@
         <h2 class="title">{project.title}</h2>
         <h3 class="description">{project.description}</h3>
         <div class="icons">
-          <a href={project.hrefCode} target="_blank" rel="noopener noreferrer">
+          <a href="{project.hrefCode}" target="_blank" rel="noopener noreferrer">
             {@html icons[0]}
           </a>              
         </div>        
@@ -76,8 +76,7 @@
   }
 
   #project-list {
-    margin: 8rem 15vw;       
-    /* width: 40vw; */
+    margin: 15rem 15vw;       
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
@@ -85,21 +84,12 @@
   }
 
   .project {
-    /* background-color: rgb(30, 30, 30); */
-    /* border: 1px solid rgb(82, 82, 82); */
     border-radius: 6px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;    
   }
-
-  /* .image {
-    width: 14rem;
-    height: 13rem;
-    padding: 1rem;
-    padding-bottom: 0;
-  } */
 
   .title {    
     color: hsl(207, 33%, 60%);
@@ -116,8 +106,7 @@
   }
 
   .icons {    
-    padding-bottom: 1.7rem;
-    
+    padding-bottom: 1.7rem;    
   }
 
   @media screen and (max-width: 1400px) {
