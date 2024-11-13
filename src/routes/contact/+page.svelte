@@ -1,6 +1,21 @@
 <script>  
   import Heading from '$lib/components/heading.svelte'
   
+  const contacts = [
+    {
+      name: "email",
+      href: "mailto:mynameisbobbylewis@hotmail.com",
+    },
+    {
+      name: "GitHub",
+      href: "https://github.com/bobbythree",
+    },
+    {
+      name: "LinkedIn",
+      href: "https://www.linkedin.com/in/bobbythree/",
+    }
+  ]  
+
 </script>
 
 <div id="heading-div">
@@ -11,17 +26,12 @@
 
 <div id="container">
   <div id="contact-links">
-    <a href="mailto:mynameisbobbylewis@hotmail.com" target="_blank" rel="noopener noreferrer">
-      <h2>email</h2>
-    </a>
-    <a href="https://github.com/bobbythree" target="_blank" rel="noopener noreferrer">
-      <h2>GitHub</h2>
-    </a>
-    <a href="https://www.linkedin.com/in/robert-lewis-iii-314497290/" target="_blank" rel="noopener noreferrer">
-      <h2>LinkedIn</h2>
-    </a>
-  </div>
-  
+    {#each contacts as contact}
+      <a href={contact.href} target="_blank" rel="noopener noreferrer">
+        <h2>{contact.name}</h2>
+      </a>
+    {/each}    
+  </div>  
 </div>
 
 
@@ -32,18 +42,17 @@
 
   #contact-links {
     display: flex;
-    flex-direction: column;
-    padding: 11rem 15vw;    
+    margin: 10rem 5rem;
+    padding: 10rem 10vw;    
     gap: 3rem;
+    justify-content: space-around;
+    /* background-color: rgba(255, 255, 255, 0.08); */
     
   }
 
-  #contact-links a {
-    width: 0;   
+  #contact-links a {       
     color: rgb(189, 110, 149);
-    text-decoration: none;
-    padding-left: 2rem;
-    /* background-color: gray; */
+    text-decoration: none; 
   }
 
   #contact-links a:hover {
@@ -53,25 +62,11 @@
     transition: 0.5s;
   }
 
-  #container {
-    display: flex;
-  }
-
   @media screen and (max-width: 666px) {
-    #container {
-      align-items: center;
-      justify-content: center ;
-    }
-
     #contact-links {
-      padding-top: 5rem;
-      
-    }
-
-    #contact-links a{
-      width: 100%;
+      flex-direction: column;
       text-align: center;
-      padding-right: 2.5rem;
+      padding: 0;
     }
   }
 
