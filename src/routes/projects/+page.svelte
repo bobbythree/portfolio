@@ -5,30 +5,26 @@
   const projects = [
     {
       title: 'Ixonia!',
-      description: 'An interactive fiction written in JavaScript',
-      // image: "/public/ixoniaThumbnail.png",
+      description: 'An interactive fiction written entirely in vanilla JavaScript. Custom CSS. Deployed to GitHub Pages.',
       hrefCode: 'https://github.com/bobbythree/ixonia',
       hrefPlay: 'https://bobbythree.github.io/ixonia/'
     },
     {
       title: 'Maitreya\'s Quest', 
-      description: 'A text-based adventure game written in Python',
-      // image: "./maitreyaThumbnail.png",
+      description: 'A text-based cyberpunk adventure game written in Python. Text parser built from scratch. ANSI and Figlet graphics. A nod to the classics.',
       hrefCode: 'https://github.com/bobbythree/maitreya-text-adventure',
       hrefPlay: '/'
     },
     {
       title: 'Automation script', 
-      description: 'A Python script for setting up project files',
-      // image: "./automationThumbnail.png",
+      description: 'A Python script that automates the setup of a project\'s file structure. Decreases the time spent setting up a project.',
       hrefCode: 'https://github.com/bobbythree/py-project-structure-automation',
       hrefPlay: '/'
     },
     {
-      title: 'Bubbles', 
-      description: 'An animation built with the JS Canvas API',
-      // image: "./bubblesThumbnail.png",
-      hrefCode: 'https://github.com/bobbythree/HTML-canvas-bubbles',
+      title: 'This website', 
+      description: 'Built with Svelte/SvelteKit. Hand coded animation using the JavaScript Canvas API. Custom CSS. Fast load time. Responsive design.',
+      hrefCode: 'https://github.com/bobbythree/portfolio',
       hrefPlay: '/'
     },
   ];
@@ -58,7 +54,7 @@
         <h3 class="description">{project.description}</h3>
         <div class="icons">
           <a href="{project.hrefCode}" target="_blank" rel="noopener noreferrer">
-            {@html icons[0]}
+            <i id="code" class="fa-solid fa-code fa-xl"></i>
           </a>              
         </div>        
       </div>      
@@ -107,6 +103,15 @@
 
   .icons {    
     padding-bottom: 1.7rem;    
+  }
+
+  #code {
+  	color: gray;
+  }
+
+  #code:hover {
+  	color: #D3D3D3;
+  	transition: 0.5s;
   }
 
   @media screen and (max-width: 1400px) {
