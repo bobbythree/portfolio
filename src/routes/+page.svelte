@@ -61,16 +61,14 @@
         <p>
           <span class="bio-heading">$_WHOAMI:</span>
           <br />
-          My name is <span>Robert Edward Lewis III</span> (Bobby Three). I am an entry level
-          computer programmer. I code for the absolute love of it. I am highly motivated
-          to join a team as a backend dev or fullstack dev.
+          My name is <span>Robert Edward Lewis III</span> (Bobby Three). I am a computer programmer. I like to build web apps and text-based adventure games. I code for the absolute love of it. I am highly motivated to join a team as a frontend dev or fullstack dev.
         </p>
         <br />
         <p>
           <span class="bio-heading">MY TECH STACK:</span>
           <br />
           <span>JavaScript</span>: Svelte/SvelteKit, Canvas API, Node.js, Express.js<br />
-          <span>Python:</span> Flask, Pytest<br />
+          <span>Python:</span> Flask, FastAPI, Pytest<br />
           <span>SQL:</span> MySQL
         </p>
         <br />
