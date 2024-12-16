@@ -45,7 +45,7 @@
 <div id="heading-div">
   <Heading heading={"Robert Edward Lewis III"} />
   <SubHeading
-    subHeading={"Computer Programmer. Wielder of JavaScript/Python/mySQL"}
+    subHeading={"Computer Programmer. Wielder of JavaScript/Python/SQL"}
   />
 </div>
 
@@ -61,7 +61,7 @@
         <p>
           <span class="bio-heading">$_WHOAMI:</span>
           <br />
-          My name is <span>Robert Edward Lewis III</span> (Bobby Three). I am a computer programmer. I like to build web apps and text-based adventure games. I code for the absolute love of it. I am highly motivated to join a team as a frontend dev or fullstack dev.
+          My name is <span>Robert Edward Lewis III</span> (bobbythree on socials). I love to build web apps and text-based adventure games. I code for the absolute love of it. I have a special affinity for vanilla JavaScript and CSS. I use Linux and the terminal is my happy place. I am also a musician and visual artist.
         </p>
         <br />
         <p>
@@ -75,7 +75,7 @@
         <p>
           <span class="bio-heading">EXPERIENCE:</span>
           <br />
-          I have 2 years of experience building personal projects such as: Web apps with Svelte(this site), RESTful APIs, particle systems, web animations, automation scripts, text adventures, text parsers and simple audio software. I have experience with <span>Linux, bash, git, Vercel and Docker</span>.
+          I have 2 years of experience building personal projects such as: Web apps(Svelte, vanilla JS), RESTful APIs (Express.js, Flask, FastAPI), automation scripts(Python, Bash), text adventures, text parsers and simple audio software. I have experience with <span>git, Vercel and Docker and Gemini</span>.
         </p>
       </div>
     </div>
