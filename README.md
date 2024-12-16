@@ -1,5 +1,5 @@
 ## Portfolio  
-This personal portfolio is a work in progress in order to understand how to use Svelte and SveltKit.
+This is the source code for my personal portfolio website. I built it with Svelte/SvelteKit and the JavaScript Canvas API.
 
 ## To run this application:  
 clone this repo to your local machine.  
