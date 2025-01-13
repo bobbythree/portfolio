@@ -45,7 +45,7 @@
 <div id="heading-div">
   <Heading heading={"Robert Edward Lewis III"} />
   <SubHeading
-    subHeading={"Computer Programmer. Wielder of JavaScript/Python/SQL"}
+    subHeading={"Software Developer. Wielder of JavaScript/Python/SQL"}
   />
 </div>
 
@@ -61,7 +61,7 @@
         <p>
           <span class="bio-heading">$_WHOAMI:</span>
           <br />
-          My name is <span>Robert Edward Lewis III</span> (bobbythree on socials). I love to build web apps and text-based adventure games. I code for the absolute love of it. I have a special affinity for vanilla JavaScript and CSS. I use Linux and the terminal is my happy place. I am also a musician and visual artist.
+          A strategic thinker and creative coder. I am an avid chess player, multi-instrumentalist musician, and text-adventure enthusiast. My passion for creativity and critical thinking fuels my interest in solving complex problems with innovative software solutions.
         </p>
         <br />
         <p>
@@ -69,7 +69,7 @@
           <br />
           <span>JavaScript</span>: Svelte/SvelteKit, Canvas API, Node.js, Express.js<br />
           <span>Python:</span> Flask, FastAPI, Pytest<br />
-          <span>SQL:</span> MySQL
+          <span>SQL:</span> MySQL, SQLite
         </p>
         <br />
         <p>
