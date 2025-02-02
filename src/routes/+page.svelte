@@ -67,7 +67,7 @@
         <p>
           <span class="bio-heading">MY TECH STACK:</span>
           <br />
-          <span>JavaScript</span>: Svelte/SvelteKit, Canvas API, Node.js, Express.js<br />
+          <span>JavaScript</span>: React, Svelte/SvelteKit, Canvas API, Node.js, Express.js<br />
           <span>Python:</span> Flask, FastAPI, Pytest<br />
           <span>SQL:</span> MySQL, SQLite
         </p>
@@ -75,7 +75,7 @@
         <p>
           <span class="bio-heading">EXPERIENCE:</span>
           <br />
-          I have 2 years of experience building personal projects such as: Web apps(Svelte, vanilla JS), RESTful APIs (Express.js, Flask, FastAPI), automation scripts(Python, Bash), text adventures, text parsers and simple audio software. I have experience with <span>git, Vercel and Docker and Gemini</span>.
+          I have 2 years of experience building personal projects such as: Web apps(React, Svelte, vanilla JS), RESTful APIs (Express.js, Flask, FastAPI), automation scripts(Python, Bash), text adventures, text parsers and simple audio software. I have experience with <span>git, Vercel and Docker and Gemini</span>.
         </p>
       </div>
     </div>
