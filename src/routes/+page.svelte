@@ -75,7 +75,7 @@
         <p>
           <span class="bio-heading">EXPERIENCE:</span>
           <br />
-          I have 2 years of experience building personal projects such as: Web apps(React, Svelte, vanilla JS), RESTful APIs (Express.js, Flask, FastAPI), automation scripts(Python, Bash), text adventures, text parsers and simple audio software. I have experience with <span>git, Vercel and Docker and Gemini</span>.
+          I have 2 years of experience building personal projects such as:<br> <span>Web apps</span> (React, Svelte, vanilla JS), <span>RESTful APIs</span> (Express.js, Flask, FastAPI), <span>Automation scripts</span> (Python, Bash), text adventures, text parsers and simple audio software.
         </p>
       </div>
     </div>
