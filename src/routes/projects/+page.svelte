@@ -4,10 +4,16 @@
 
   const projects = [
     {
-      title: 'Ixonia!',
-      description: 'An interactive fiction written entirely in vanilla JavaScript. Custom CSS. Deployed to GitHub Pages.',
+      title: 'Harry Potter App',
+      description: 'A React application that calls a public API (PotterAPI) and displays the data to the screen. Styled with Tailwind and DaisyUI.',
       hrefCode: 'https://github.com/bobbythree/ixonia',
       hrefPlay: 'https://bobbythree.github.io/ixonia/'
+    },
+    {
+      title: 'This website', 
+      description: 'Built with Svelte/SvelteKit. Hand coded animation using the JavaScript Canvas API. Custom CSS. Fast load time. Responsive design.',
+      hrefCode: 'https://github.com/bobbythree/portfolio',
+      hrefPlay: '/'
     },
     {
       title: 'Maitreya\'s Quest', 
@@ -20,13 +26,7 @@
       description: 'A Python script that automates the setup of a project\'s file structure. Decreases the time spent setting up a project.',
       hrefCode: 'https://github.com/bobbythree/py-project-structure-automation',
       hrefPlay: '/'
-    },
-    {
-      title: 'This website', 
-      description: 'Built with Svelte/SvelteKit. Hand coded animation using the JavaScript Canvas API. Custom CSS. Fast load time. Responsive design.',
-      hrefCode: 'https://github.com/bobbythree/portfolio',
-      hrefPlay: '/'
-    },
+    },    
   ];
   
   const icons = [

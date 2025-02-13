@@ -2,9 +2,9 @@
   import Heading from '$lib/components/heading.svelte'
 
   const logos = [
-    '<i class="fa-solid fa-envelope fa-2x"></i>',
-    '<i class="fa-brands fa-github fa-2x"></i>',
-    '<i class="fa-brands fa-linkedin fa-2x"></i>'
+    '<i class="fa-solid fa-envelope fa-xl"></i>',
+    '<i class="fa-brands fa-github fa-xl"></i>',
+    '<i class="fa-brands fa-linkedin fa-xl"></i>'
   ]
   
   const contacts = [
