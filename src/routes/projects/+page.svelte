@@ -4,8 +4,8 @@
 
   const projects = [
     {
-      title: 'Harry Potter App',
-      description: 'A React application that calls a public API (PotterAPI) and displays the data to the screen. Styled with Tailwind and DaisyUI.',
+      title: 'React Weather App',
+      description: 'By integrating with the OpenWeatherMap API, this app provides real-time updates and dynamically adjusts its background to reflect current conditions. ',
       hrefCode: 'https://github.com/bobbythree/ixonia',
       hrefPlay: 'https://bobbythree.github.io/ixonia/'
     },
