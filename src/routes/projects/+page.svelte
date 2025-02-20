@@ -5,9 +5,9 @@
   const projects = [
     {
       title: 'React Weather App',
-      description: 'By integrating with the OpenWeatherMap API, this app provides real-time updates and dynamically adjusts its background to reflect current conditions. ',
-      hrefCode: 'https://github.com/bobbythree/ixonia',
-      hrefPlay: 'https://bobbythree.github.io/ixonia/'
+      description: 'By integrating with the OpenWeatherMap API, this app provides real-time weather updates and dynamically adjusts its background to reflect current conditions. ',
+      hrefCode: 'https://github.com/bobbythree/react-weather-app',
+      hrefPlay: 'https://react-weather-app-rouge-iota.vercel.app/'
     },
     {
       title: 'This website', 
