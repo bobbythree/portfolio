@@ -83,15 +83,14 @@
     border-radius: 6px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;    
+    justify-content: space-between;
+     
   }
 
   .title {    
     color: hsl(207, 33%, 60%);
     padding: 2rem;
-    padding-bottom: 0;
-      
+    padding-bottom: 0;  
   }
  
   .description {    
