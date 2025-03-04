@@ -49,7 +49,7 @@
 
   @media screen and (max-width: 666px) {
     #nav-bar {
-      justify-content: space-evenly;
+      justify-content: space-around;
     }
 
     #nav-logo {
