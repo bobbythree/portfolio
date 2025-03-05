@@ -48,12 +48,12 @@
   }
 
   @media screen and (max-width: 666px) {
-    #nav-bar {
-      justify-content: space-around;
-    }
-
     #nav-logo {
       display: none;
+    }
+    #nav-bar {
+      display: flex;
+      justify-content: center;
     }
   }
 </style>
