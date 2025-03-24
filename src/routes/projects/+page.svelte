@@ -17,7 +17,7 @@
     },
     {
       title: 'EMR System', 
-      description: 'Electronic Medical Records System that makes clinical documention more modern and user friendly. Built with React, TailwindCSS, Express.js and SQLite',
+      description: 'Electronic Medical Records System that makes clinical documention more modern and user friendly. Built with React, TailwindCSS, Express.js and SQLite.',
       hrefCode: 'https://github.com/bobbythree/emr-system',
       hrefPlay: '/'
     },
