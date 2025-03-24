@@ -45,7 +45,7 @@
 <div id="heading-div">
   <Heading heading={"Robert Edward Lewis III"} />
   <SubHeading
-    subHeading={"Software Developer. Wielder of JavaScript/Python/SQL"}
+    subHeading={"Web Developer. Computer Programmer"}
   />
 </div>
 

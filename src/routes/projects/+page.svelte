@@ -11,22 +11,22 @@
     },
     {
       title: 'This website', 
-      description: 'Built with Svelte/SvelteKit. Hand coded animation using the JavaScript Canvas API. Custom CSS. Fast load time. Responsive design.',
+      description: 'Built with Svelte/SvelteKit. Hand-coded animation using the JavaScript Canvas API. Custom CSS. Fast load time. Responsive design for all screen sizes.',
       hrefCode: 'https://github.com/bobbythree/portfolio',
       hrefPlay: '/'
     },
     {
-      title: 'Maitreya\'s Quest', 
-      description: 'A text-based cyberpunk adventure game written in Python. Text parser built from scratch. ANSI and Figlet graphics. A nod to the classics.',
-      hrefCode: 'https://github.com/bobbythree/maitreya-text-adventure',
+      title: 'EMR System', 
+      description: 'Electronic Medical Records System that makes clinical documention more modern and user friendly. Built with React, TailwindCSS, Express.js and SQLite',
+      hrefCode: 'https://github.com/bobbythree/emr-system',
       hrefPlay: '/'
     },
     {
-      title: 'Automation script', 
-      description: 'A Python script that automates the setup of a project\'s file structure. Decreases the time spent setting up a project.',
-      hrefCode: 'https://github.com/bobbythree/py-project-structure-automation',
+      title: 'Maitreya\'s Quest', 
+      description: 'A text-based cyberpunk adventure game written in Python. Text parser built from scratch. ANSI and Figlet graphics. Runs in the terminal. A nod to the classics.',
+      hrefCode: 'https://github.com/bobbythree/maitreya-text-adventure',
       hrefPlay: '/'
-    },    
+    },
   ];
   
   const icons = [
