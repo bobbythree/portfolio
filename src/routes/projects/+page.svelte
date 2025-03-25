@@ -17,7 +17,7 @@
     },
     {
       title: 'EMR System', 
-      description: 'Electronic Medical Records System that makes clinical documention more modern and user friendly. Built with React, TailwindCSS, Express.js and SQLite.',
+      description: 'A mock Electronic Medical Records System (EMR). Fullstack application built with React, React Router, TailwindCSS, Express.js and SQLite.',
       hrefCode: 'https://github.com/bobbythree/emr-system',
       hrefPlay: '/'
     },
