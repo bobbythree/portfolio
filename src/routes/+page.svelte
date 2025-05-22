@@ -44,14 +44,10 @@
 
 <div id="heading-div">
   <Heading heading={"Robert Edward Lewis III"} />
-  <SubHeading
-    subHeading={"Web Developer. Computer Programmer"}
-  />
+  <SubHeading subHeading={"Web Developer. Computer Programmer"} />
 </div>
 
-
 <div id="main-container">
-  
   <div id="flower-container">
     <canvas bind:this={canvas} />
   </div>
@@ -61,13 +57,17 @@
         <p>
           <span class="bio-heading">$_WHOAMI:</span>
           <br />
-          A strategic thinker and creative coder. I am an avid chess player, multi-instrumentalist musician, and text-adventure enthusiast. My passion for creativity and critical thinking fuels my interest in solving complex problems with innovative software solutions.
+          A strategic thinker and creative coder. I am an avid chess player, multi-instrumentalist
+          musician, and text-adventure enthusiast. My passion for creativity and
+          critical thinking fuels my interest in solving complex problems with innovative
+          software solutions.
         </p>
         <br />
         <p>
           <span class="bio-heading">MY TECH STACK:</span>
           <br />
-          <span>JavaScript</span>: React, Svelte/SvelteKit, Canvas API, Node.js, Express.js<br />
+          <span>JavaScript / TypeScript</span>: React, Svelte/SvelteKit, Canvas
+          API, Node.js, Express.js<br />
           <span>Python:</span> Flask, FastAPI, Pytest<br />
           <span>SQL:</span> MySQL, SQLite
         </p>
@@ -75,7 +75,11 @@
         <p>
           <span class="bio-heading">EXPERIENCE:</span>
           <br />
-          I have 2 years of experience building personal projects such as:<br> <span>Web apps</span> (React, Svelte, vanilla JS), <span>RESTful APIs</span> (Express.js, Flask, FastAPI), <span>Automation scripts</span> (Python, Bash), text adventures, text parsers and simple audio software.
+          I have 2 years of experience building personal projects such as:<br />
+          <span>Web apps</span>
+          (React, Svelte, vanilla JS), <span>RESTful APIs</span> (Express.js,
+          Flask, FastAPI), <span>Automation scripts</span> (Python, Bash), text adventures,
+          text parsers and simple audio software.
         </p>
       </div>
     </div>
@@ -112,12 +116,12 @@
     margin: 4rem 4rem;
     padding-left: 1rem;
     color: hsl(207, 33%, 55%);
-    max-width: 100%;    
+    max-width: 100%;
   }
 
-  p {    
+  p {
     padding: 2rem;
-    border-width: 1px;    
+    border-width: 1px;
     border-radius: 5px;
   }
 
@@ -130,20 +134,20 @@
       margin-left: 0;
     }
   }
-  
+
   @media screen and (max-width: 1260px) {
     #main-container {
       padding: 0;
       flex-direction: column;
       align-items: center;
     }
-    #flower-container {   
+    #flower-container {
       width: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
     }
-    #bio-container{
+    #bio-container {
       margin-top: 0;
       margin-left: 5rem;
       width: 100%;
@@ -158,8 +162,6 @@
       width: 75vw;
     }
   }
-
-  
 
   @media screen and (max-width: 800px) {
     #heading-div {
@@ -189,7 +191,5 @@
       align-items: center;
       justify-content: center;
     }
-
   }
-  
 </style>
