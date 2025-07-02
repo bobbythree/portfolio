@@ -57,29 +57,39 @@
         <p>
           <span class="bio-heading">$_WHOAMI:</span>
           <br />
-          A strategic thinker and creative coder. I am an avid chess player, multi-instrumentalist
-          musician, and text-adventure enthusiast. My passion for creativity and
-          critical thinking fuels my interest in solving complex problems with innovative
-          software solutions.
+          Highly motivated and self-taught technologist with a strong foundation
+          in Web Development, scripting and Linux environments. Bringing decades
+          of proven customer service and technical support experience from diverse
+          fields, eager to pivot into a full-time tech role. Passionate about learning,
+          problem-solving, and making a meaningful contribution to a dynamic team.
         </p>
         <br />
         <p>
-          <span class="bio-heading">MY TECH STACK:</span>
+          <span class="bio-heading">$_MY_TECH_STACK:</span>
           <br />
-          <span>JavaScript / TypeScript</span>: React, Svelte/SvelteKit, Canvas
-          API, Node.js, Express.js<br />
-          <span>Python:</span> Flask, FastAPI, Pytest<br />
-          <span>SQL:</span> MySQL, SQLite
+          <span>Languages:</span>: JavaScript, TypeScript, Python, Bash, SQL
+          <br />
+          <span>Frontend technologies:</span> React, Svelte, Canvas API,
+          TailwindCSS<br />
+          <span>Backend Technologies:</span> Node.js, Express.js, MySQL, SQLite,
+          Insomnia, Flask
+          <br />
+          <span>Other Tools:</span> Git, Github, ssh, Docker, AWS, Vercel, VirtualBox
         </p>
         <br />
         <p>
-          <span class="bio-heading">EXPERIENCE:</span>
+          <span class="bio-heading">$_SKILLS:</span>
           <br />
-          I have 2 years of experience building personal projects such as:<br />
-          <span>Web apps</span>
-          (React, Svelte, vanilla JS), <span>RESTful APIs</span> (Express.js,
-          Flask, FastAPI), <span>Automation scripts</span> (Python, Bash), text adventures,
-          text parsers and simple audio software.
+          <span>Linux System Admin:</span> User & Group mgmt, Storage & File
+          System mgmt, Web Servers (Nginx, Apache), Networking (TCP/IP, DNS)
+          Security(PKI, SSL, Firewall)
+          <br />
+          <span>Frontend:</span> Web Apps, Animations, State management,
+          Responsive Design Frameworks and Libraries
+          <br />
+          <span>Backend:</span> Database management, RESTful APIs, ORM and raw
+          SQL
+          <br />
         </p>
       </div>
     </div>
