@@ -8,12 +8,16 @@
 		"preview": "vite preview"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^3.0.0",
-		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/adapter-auto": "^6.1.0",
+		"@sveltejs/kit": "^2.31.1",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"svelte": "^4.2.7",
 		"svelte-typewriter": "^3.2.3",
-		"vite": "^5.0.3"
+		"vite": "^5.0.0"
 	},
+  "overrides": {
+    "cookie": ">=0.7.0",
+    "esbuild": ">=0.25.0"
+  },
 	"type": "module"
 }
