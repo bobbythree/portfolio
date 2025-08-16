@@ -44,7 +44,7 @@
 
 <div id="heading-div">
   <Heading heading={"Robert Edward Lewis III"} />
-  <SubHeading subHeading={"Passionate Technologist | Computer Programmer"} />
+  <SubHeading subHeading={"Web Dev | Linux Enthusiast"} />
 </div>
 
 <div id="main-container">
@@ -57,11 +57,12 @@
         <p>
           <span class="bio-heading">$_WHOAMI:</span>
           <br />
-          Highly motivated and self-taught technologist with a strong foundation
-          in Web Development, scripting and Linux environments. Bringing decades
-          of proven customer service and technical support experience from diverse
-          fields, eager to pivot into a full-time tech role. Passionate about learning,
-          problem-solving, and making a meaningful contribution to a dynamic team.
+          I'm a freelance developer passionate about creating engaging and functional
+          <span>Web Applications</span>. I love building intuitive user
+          interfaces, robust back-end systems, and bringing unique ideas to
+          life. While my primary focus is on web development, my experience with
+          <span>Linux Administration and Infrastructure</span> allows me to approach
+          problems with a diverse set of tools.
         </p>
         <br />
         <p>
@@ -72,24 +73,23 @@
           <span>Frontend technologies:</span> React, Svelte, Canvas API,
           TailwindCSS<br />
           <span>Backend Technologies:</span> Node.js, Express.js, MySQL, SQLite,
-          Insomnia, Flask
+          Flask
           <br />
-          <span>Other Tools:</span> Git, Github, ssh, Docker, AWS, Vercel, VirtualBox
+          <span>DevOps/Infra:</span> Git, Github, Docker/Podman, AWS, Terraform,
+          VirtualBox
         </p>
         <br />
         <p>
           <span class="bio-heading">$_SKILLS:</span>
           <br />
-          <span>Linux System Admin:</span> User & Group mgmt, Storage & File
-          System mgmt, Web Servers (Nginx, Apache), Networking (TCP/IP, DNS)
-          Security(PKI, SSL, Firewall)
+          <span>Frontend:</span> Web Apps, Animations, Responsive Design,
+          Frameworks and Libraries
           <br />
-          <span>Frontend:</span> Web Apps, Animations, State management,
-          Responsive Design Frameworks and Libraries
-          <br />
-          <span>Backend:</span> Database management, RESTful APIs, ORM and raw
+          <span>Backend:</span> Database management, RESTful APIs, ORMs and raw
           SQL
           <br />
+          <span>Linux:</span> Debian and RHEL based Distros, User & Group mgmt, Storage
+          & File System mgmt, Networking (TCP/IP, DNS), Security(PKI, SSL, Firewall)
         </p>
       </div>
     </div>
