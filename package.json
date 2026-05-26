@@ -8,16 +8,16 @@
 		"preview": "vite preview"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^6.1.0",
-		"@sveltejs/kit": "^2.31.1",
-		"@sveltejs/vite-plugin-svelte": "^3.0.0",
-		"svelte": "^4.2.7",
-		"svelte-typewriter": "^3.2.3",
-		"vite": "^5.0.0"
+		"@sveltejs/adapter-static": "3.0.10",
+		"@sveltejs/kit": "2.5.18",
+		"@sveltejs/vite-plugin-svelte": "3.1.2",
+		"svelte": "4.2.20",
+		"svelte-typewriter": "3.2.3",
+		"vite": "5.4.21"
 	},
-  "overrides": {
-    "cookie": ">=0.7.0",
-    "esbuild": ">=0.25.0"
-  },
+	"overrides": {
+		"cookie": "0.7.2",
+		"esbuild": "0.21.5"
+	},
 	"type": "module"
 }
