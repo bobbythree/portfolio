@@ -45,7 +45,12 @@
         <h2 class="title">{project.title}</h2>
         <h3 class="description">{project.description}</h3>
         <div class="icons">
-          <a href={project.hrefCode} target="_blank" rel="noopener noreferrer">
+          <a
+            href={project.hrefCode}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`View source code for ${project.title}`}
+          >
             <i id="code" class="fa-solid fa-code fa-xl"></i>
           </a>
         </div>

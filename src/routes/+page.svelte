@@ -49,7 +49,7 @@
 
 <div id="main-container">
   <div id="flower-container">
-    <canvas bind:this={canvas} />
+    <canvas bind:this={canvas}></canvas>
   </div>
   <div id="bio-container">
     <div id="bio">
